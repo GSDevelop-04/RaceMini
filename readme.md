@@ -3,7 +3,7 @@
 <p align="center">
    <h3 align="center">RaceMini</h3>
   <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="images/Miniature.jpg" alt="Logo" width="640" height="360">
+    <img src="Images/Miniature.jpg" alt="Logo" width="640" height="360">
   </a>
    <br/>
    Véhicule autonome au 1/10
