@@ -2,9 +2,9 @@
 <br />
 <p align="center">
    <h3 align="center">RaceMini</h3>
-  <a href="https://github.com/GSDevelop-04/RaceMini">
+   <a href="https://github.com/GSDevelop-04/RaceMini">
     <img src="Images/Miniature.jpg" alt="Logo" width="640" height="360">
-  </a>
+   </a>
    <br/>
    Véhicule autonome au 1/10
    1/10 self driving car
@@ -52,7 +52,7 @@ L'ensemble est sous licence **CC BY-NC-SA**
 
 <p align="center">
  <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="images/Structure.png" alt="Structure" width="895" height="327">
+    <img src="Images/Structure.png" alt="Structure" width="895" height="327">
  </a>
 </p>
 
@@ -70,7 +70,7 @@ Toutes les zones de l’image ne présentent pas les mêmes intérêts : un vir
 
 <p align="center">
  <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="images/vue OpenMV.png" alt="Vision" width="367" height="269">
+    <img src="Images/vue OpenMV.png" alt="Vision" width="367" height="269">
  </a>
 </p>
 
@@ -94,7 +94,7 @@ Diagramme de bloc interne
 
 <p align="center">
  <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="images/schemaBloc" alt="Schéma" width="367" height="269">
+    <img src="Images/schemaBloc" alt="Schéma" width="367" height="269">
  </a>
 </p>
 
