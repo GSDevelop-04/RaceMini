@@ -1,7 +1,6 @@
 
 <br />
 <p align="center">
-   <h3 align="center">RaceMini</h3>
    <a href="https://github.com/GSDevelop-04/RaceMini">
     <img src="Images/Miniature.jpg" alt="Logo" width="640" height="360">
    </a>
@@ -14,14 +13,14 @@
 ##    1) Introduction
 
 RaceMini est un véhicule au 1/10 d'étude sur la conduite autonome.
-cliquer pour voir la védeo sur youtube:
-[![Vidéo](https://github.com/GSDevelop-04/RaceMini/Images/video.jpg)](https://youtu.be/tJVRatMsotc)
+cliquer pour voir la vidéo sur youtube:
+[![Vidéo](https://github.com/GSDevelop-04/RaceMini/blob/main/Images/video.jpg)](https://youtu.be/tJVRatMsotc)
 
 Le véhicule peut être piloté par un smartphone via une application Android et peut fonctionner en automatique ou manuel. Il utilise la reconnaissance des marquages au sol via la transformée de Hough sur une caméra openMV M7 ou H7 
 
 <p align="center">
  <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="Images/ancien et nouveaux.jpg" alt="véhicules" width="367" height="269">
+    <img src="Images/anciens et nouveaux.jpg" alt="véhicules" width="367" height="269">
  </a>
 </p>
 
