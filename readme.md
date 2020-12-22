@@ -32,19 +32,21 @@ Le modèle est entierement imprimable en 3D
 * L'APK Android pour le téléphone
 * Le source ESP32 pour IDE Arduino
 * Le source Python pour L'OpenMV
+Non obligatoire:
+* Les fichiers kiCad pour la fabrication d'un circuit imprimé: il rationalise le câblage avec des connecteurs pour chaque élément du système ( carte variateur, alim 5V, camera, écran )
 * Des examples de traitement de l'image (transformée de Hough et régréssion) en java script (juste pour comprendre, non utilisés dans RaceMini)
 
 L'ensemble est sous licence **CC BY-NC-SA**
 
 **Les éléments suivants sont nécessaires:**
 
-* Caméra OpenMV H7 (M7 possible)
-* ESP32
-* Carte variateur
+* Caméra OpenMV H7 (M7 possible) **attention à l'objectif le 2,8 mm d'origine possède un champ de vision un peu limité préférer un 2 ou 2.2 mm**
+* ESP32 ( Il existe de nombreux modules le CI est prévu pour un ESP32 DEVKIT V1: 30 broches)
+* Carte variateur (la carte DRI0042 dispose d'une sortie 5V régulée)
 * Moteur type 540 et Pignon moteur
 * batterie et interrupteur
 * Visserie
-* En option un ecran Oled 1.3" monochrome
+* En option un écran Oled 1.3" monochrome **Attention selon le fabricant le GND et le 5V sont inversés !**
 
 
 ##    2) Structure matérielle.
@@ -96,4 +98,32 @@ Diagramme de bloc interne
     <img src="Images/schemaBloc.png" alt="Schéma" width="367" height="269">
  </a>
 </p>
+
+##    2.3) Câblage
+
+**Liasons ESP32 Caméra:**  
+* RX ESP32 (RX2) / Tx caméra (P1 uart 1 Tx)  
+* TX ESP32 (TX2) / Rx caméra (P0 uart 1 RX)
+
+**Liaisons ESP32 Variateur:**  
+* ESP32 D25 / PWM 
+* ESP32 D33 / IN2  // Marche avant: 1 Marche arrière: 0  
+* ESP32 D32 / IN1  // Marche avant: 0 Marche arrière: 1
+
+**Liaisons ESP32 Ecran:**  
+* ESP32 D21 / OLED SDA  
+* ESP32 D22 / OLED SCL
+						
+**Et les alimentations:** Le 5v est fourni par la carte variateur sinon utiliser un module regulateur 5V à découpage
+
+##   3) Vidéos
+* [Présentation: https://youtu.be/Jysb8A-HKZk](https://youtu.be/Jysb8A-HKZk)
+* [Marquages au sol partie 1: https://youtu.be/zz7oVWdyysM](https://youtu.be/zz7oVWdyysM)
+* [Marquages au sol partie 2: https://youtu.be/7tqPUZ-_XuY](https://youtu.be/7tqPUZ-_XuY)
+* [Modélisation caméra sténopé: https://youtu.be/YC57ygDgGVU](https://youtu.be/YC57ygDgGVU)
+* [Conduite: https://youtu.be/9OizZml_HDY](https://youtu.be/9OizZml_HDY)
+* [RaceMaxi: https://youtu.be/luEXLeMDnMg](https://youtu.be/luEXLeMDnMg)
+
+
+
 
