@@ -32,6 +32,7 @@ Le modèle est entierement imprimable en 3D
 * L'APK Android pour le téléphone
 * Le source ESP32 pour IDE Arduino
 * Le source Python pour L'OpenMV
+
 Non obligatoire:
 * Les fichiers kiCad pour la fabrication d'un circuit imprimé: il rationalise le câblage avec des connecteurs pour chaque élément du système ( carte variateur, alim 5V, camera, écran )
 * Des examples de traitement de l'image (transformée de Hough et régréssion) en java script (juste pour comprendre, non utilisés dans RaceMini)
