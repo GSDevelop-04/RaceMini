@@ -89,7 +89,7 @@ L’ensemble est programmé en python avec l’IDE openMV IDE.
 
 ##    2.2) Calcul de la commande de conduite.
 
-La carte ESP32 reçoit les deux segments de droites des marquages au sol, elle détermine le CIR à partir de la médiane des deux segments (axe de la route) puis calcule les vitesses de la roue droite et de la roue gauche en fonction de la vitesse désirée (qui peut être diminuée si le virage est serré) :
+La carte ESP32 reçoit les deux segments de droites des marquages au sol, elle détermine le CIR à partir de la médiane des deux segments (axe de la route) puis calcule la commande du servomoteur pour obtenir la bonne trajectoire :
 
 L’ensemble est programmé dans l’IDE Arduino
 
