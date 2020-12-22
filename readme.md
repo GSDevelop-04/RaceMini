@@ -45,6 +45,7 @@ L'ensemble est sous licence **CC BY-NC-SA**
 * ESP32 ( Il existe de nombreux modules le CI est prévu pour un ESP32 DEVKIT V1: 30 broches)
 * Carte variateur (la carte DRI0042 dispose d'une sortie 5V régulée)
 * Moteur type 540 et Pignon moteur
+* Un servomoteur
 * batterie et interrupteur
 * Visserie
 * En option un écran Oled 1.3" monochrome **Attention selon le fabricant le GND et le 5V sont inversés !**
@@ -92,11 +93,9 @@ La carte ESP32 reçoit les deux segments de droites des marquages au sol, elle d
 
 L’ensemble est programmé dans l’IDE Arduino
 
-Diagramme de bloc interne
-
 <p align="center">
  <a href="https://github.com/GSDevelop-04/RaceMini">
-    <img src="Images/schemaBloc.png" alt="Schéma" width="367" height="269">
+    <img src="Images/conduite.jpg" alt="Schéma" width="367" height="269">
  </a>
 </p>
 
